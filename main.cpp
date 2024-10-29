@@ -106,7 +106,7 @@ int main() {
             livelloPuliziaPerc = usaAttrezzi(livelloPuliziaPerc);
         }
         if (azione == "R") {
-            cout << "Inserisci la nuova capacità massima" << endl;
+            cout << "Inserisci la nuova capacità massima." << endl;
             cin >> capacitaMax;
             livelloPuliziaPerc = rand() % 101;
             numPersone = resetPalestra(numPersone);
